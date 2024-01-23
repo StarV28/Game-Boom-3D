@@ -1174,8 +1174,8 @@ body {
 }
 
 .feedback__items {
-  position: relative;
-  inset: 0;
+  position: absolute;
+  inset: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1220,7 +1220,6 @@ body {
 }
 
 .form {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1280,7 +1279,6 @@ body {
 }
 
 .form__download {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
