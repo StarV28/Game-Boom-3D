@@ -1185,8 +1185,7 @@ body {
 }
 
 .feedback__in {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1217,8 +1216,7 @@ body {
 }
 
 .feedback__form {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  width: 50%;
 }
 
 .form {
@@ -1934,6 +1932,11 @@ body {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: end;
+    width: 100%;
+  }
+
+  .feedback__form {
+    width: 100%;
   }
 
   .form__download {
